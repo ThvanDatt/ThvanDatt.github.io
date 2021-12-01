@@ -1,0 +1,32 @@
+body {
+   font-family: 'Kosugi Maru', sans-serif;
+   font-family: 'Zen Old Mincho', serif;
+}
+.box{
+    margin-top:100px;
+    
+}
+button{
+    padding:10px 30px;
+    border-radius:15px;
+    border:none;
+}
+onclick, alert{
+    color:red;
+}
+#No{
+    position:relative;
+    background-color:red;
+    left:5%;
+}
+#No:before{
+    content:"";
+    width:100px;
+    height:50px;
+    background-color:red;
+}
+#yep{
+    position:relative ;
+    background-color:blue;
+    left:30%;
+}
